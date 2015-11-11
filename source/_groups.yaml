@@ -1,0 +1,51 @@
+!!omap
+
+- $large$common$timetable: true
+- $common$timetable: &common-timetable !!omap
+  - 2015-11-11: [   2, 3]
+  - 2015-11-12: [1, 2, 3]
+  - 2015-11-13: [1, 2, 3]
+  - 2015-11-14: [1, 2, 3]
+  - 2015-11-15: [1, 2, 3]
+  - 2015-11-16: [1, 2   ]
+  - 2015-11-17: [1, 2, 3]
+  - 2015-11-18: [1, 2, 3]
+  - 2015-11-19: [1, 2, 3]
+  - 2015-11-20: [1, 2, 3]
+  - 2015-11-21: [1, 2, 3]
+
+- $large$groups[g9r2]: true
+- $groups[g9r2]:
+    name: Луни
+    timetable: *common-timetable
+
+- $large$groups[g9r1]: true
+- $groups[g9r1]:
+    name: Ястребы
+    timetable: *common-timetable
+
+- $large$groups[g10r2]: true
+- $groups[g10r2]:
+    name: Тайфунники
+    timetable: *common-timetable
+
+- $large$groups[g10r1]: true
+- $groups[g10r1]:
+    name: Буревестники
+    timetable: *common-timetable
+
+- $large$groups[g11r2]: true
+- $groups[g11r2]:
+    name: Клювачи
+    timetable: *common-timetable
+
+- $large$groups[g11r1]: true
+- $groups[g11r1]:
+    name: Аисты
+    timetable: *common-timetable
+
+- $large$groups[gX]: true
+- $groups[gX]:
+    name: Фазаны
+    timetable: *common-timetable
+
