@@ -1,7 +1,10 @@
+# vim:foldmethod=marker:
+
 !!omap
 
 - $large$timetable$extra[g9r2]: true
 - $timetable$extra[g9r2]:
+# {{{
     2015-11-11:
       2:
       3:
@@ -44,9 +47,11 @@
       1:
       2:
       3:
+# }}}
 
 - $large$timetable$extra[g9r1]: true
 - $timetable$extra[g9r1]:
+# {{{
     2015-11-11:
       2:
       3:
@@ -89,9 +94,11 @@
       1:
       2:
       3:
+# }}}
 
 - $large$timetable$extra[g10r2]: true
 - $timetable$extra[g10r2]:
+# {{{
     2015-11-11:
       2:
       3:
@@ -134,9 +141,11 @@
       1:
       2:
       3:
+# }}}
 
 - $large$timetable$extra[g10r1]: true
 - $timetable$extra[g10r1]:
+# {{{
     2015-11-11:
       2:
       3:
@@ -179,9 +188,11 @@
       1:
       2:
       3:
+# }}}
 
 - $large$timetable$extra[g11r2]: true
 - $timetable$extra[g11r2]:
+# {{{
     2015-11-11:
       2:
       3:
@@ -224,9 +235,11 @@
       1:
       2:
       3:
+# }}}
 
 - $large$timetable$extra[g11r1]: true
 - $timetable$extra[g11r1]:
+# {{{
     2015-11-11:
       2:
       3:
@@ -269,4 +282,52 @@
       1:
       2:
       3:
+# }}}
+
+- $large$timetable$extra[gX]: true
+- $timetable$extra[gX]:
+# {{{
+    2015-11-11:
+      2:
+      3:
+    2015-11-12:
+      1:
+      2:
+    # 3:
+    2015-11-13:
+      1:
+      2:
+      3:
+    2015-11-14:
+      1:
+      2:
+      3:
+    2015-11-15:
+      1:
+      2:
+      3:
+    2015-11-16:
+      1:
+      2:
+    2015-11-17:
+      1:
+      2:
+      3:
+    2015-11-18:
+      1:
+      2:
+      3:
+    2015-11-19:
+      1:
+      2:
+      3:
+    2015-11-20:
+      1:
+      2:
+      3:
+    2015-11-21:
+      1:
+      2:
+      3:
+# }}}
 

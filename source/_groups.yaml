@@ -16,36 +16,36 @@
 
 - $large$groups[g9r2]: true
 - $groups[g9r2]:
-    name: Луни
+    name: Стрижи
     timetable: *common-timetable
 
 - $large$groups[g9r1]: true
 - $groups[g9r1]:
-    name: Ястребы
+    name: Ласточки
     timetable: *common-timetable
 
 - $large$groups[g10r2]: true
 - $groups[g10r2]:
-    name: Тайфунники
+    name: Скворцы
     timetable: *common-timetable
 
 - $large$groups[g10r1]: true
 - $groups[g10r1]:
-    name: Буревестники
+    name: В\'{о}роны
     timetable: *common-timetable
 
 - $large$groups[g11r2]: true
 - $groups[g11r2]:
-    name: Клювачи
+    name: Цапли
     timetable: *common-timetable
 
 - $large$groups[g11r1]: true
 - $groups[g11r1]:
-    name: Аисты
+    name: Пеликаны
     timetable: *common-timetable
 
 - $large$groups[gX]: true
 - $groups[gX]:
-    name: Фазаны
+    name: Куры
     timetable: *common-timetable
 
