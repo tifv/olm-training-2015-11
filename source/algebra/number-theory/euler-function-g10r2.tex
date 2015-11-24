@@ -1,0 +1,122 @@
+% $date: 2015-11-13
+% $timetable:
+%   g10r2:
+%     2015-11-13:
+%       2:
+
+\section*{Функция Эйлера}
+
+% $authors:
+% - Владимир Викторович Трушков
+
+\begingroup
+    \ifx\mathup\undefined
+        \def\eulerphi{\upphi}%
+    \else
+        \def\eulerphi{\mathup{\phi}}%
+    \fi
+    \providecommand\divides{\mathrel{\vert}}
+    \def\GCD{\operatorname{\text{НОД}}}
+    \def\LCM{\operatorname{\text{НОК}}}
+
+\begin{problems}
+
+\itemy{0}
+Докажите, что функция Эйлера мультипликативна, то есть
+\[
+    \eulerphi(m n) = \eulerphi(m) \cdot \eulerphi(n)
+\quad
+    \text{при $(m, n) = 1$}
+\, . \]
+
+\item
+Докажите, что при $n > 2$ функция $\eulerphi(n)$ принимает только четные значения.
+
+\end{problems}
+
+\medskip
+
+Для любых натуральных $m$ и~$n$ докажите
+
+\begin{problems}
+
+\item
+\(
+    \eulerphi(m) \cdot \eulerphi(n)
+=
+    \eulerphi \bigl( \LCM(m, n) \bigr)
+    \cdot
+    \eulerphi \bigl( \GCD(m,n) \bigr)
+\).
+
+\item
+\(
+    \eulerphi(m n)
+=
+    \eulerphi \bigl( \LCM(m, n) \bigr)
+    \cdot
+    \GCD(m,n)
+\).
+
+\item
+\(
+    \eulerphi(m) \cdot \eulerphi(n) \cdot
+    \GCD(m,n)
+=
+    \eulerphi(m n)
+    \cdot
+    \eulerphi \bigl( \GCD(m,n) \bigr)
+\).
+
+\end{problems}
+
+\medskip
+
+\begin{problems}
+
+\item
+Пусть $m$ и~$n$~--- натуральные числа, причем $\GCD(m, n) > 1$.
+Докажите неравенство $\eulerphi(m n) > \eulerphi(m) \cdot \eulerphi(n)$.
+
+\end{problems}
+
+\medskip
+
+Решите уравнения:
+
+\begin{problems}
+
+\item
+$\eulerphi(x) = 12$.
+\qquad
+\problem
+$\eulerphi(x) = 18$.
+\qquad
+\problem
+$x-\eulerphi(x) = 12$.
+\qquad
+\problem
+$\eulerphi(x^2) = x^2 - x$.
+
+\end{problems}
+
+\medskip
+
+\begin{problems}
+
+\item
+Докажите, что $\sum\limits_{d \divides n} \eulerphi(d) = n$.
+
+\item
+Докажите, что $n^m \equiv n^{m - \eulerphi(m)} \pmod{m}$ при натуральных
+$m$, $n$ больших единицы.
+
+\item
+Окружность разделена $105$ точками на~$105$ равных частей.
+Сколько можно построить различных замкнутых ломаных из~$105$ равных звеньев
+с~вершинами в~этих точках?
+
+\end{problems}
+
+\endgroup % \def\eulerphi \def\divides \def\GCD \def\LCM
+
